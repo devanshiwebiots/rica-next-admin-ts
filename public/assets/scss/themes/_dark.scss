@@ -25,6 +25,25 @@ body {
 				}
 			}
 		}
+		.theme-form {
+			.dropzone-container{
+				box-shadow: 1px 1px 4px rgba($black, 0.1), -1px -1px 4px rgba($white, 0.1);
+				p{
+					color: $dark-all-font-color;
+				}
+			}
+			.uploaded-files{
+				.file-card{
+					background: unset;
+					background-color: $dark-body-background;
+					border-color: $dark-card-border;
+					box-shadow: 1px 1px 4px rgba($black, 0.1), -1px -1px 4px rgba($white, 0.1);
+					.file-name,.file-size{
+						color: $dark-all-font-color;
+					}
+				}
+			}
+		}
 		.static-top-widget {
 			.media-body {
 				h4 {

@@ -127,7 +127,7 @@
     input{
         &:checked{
             ~ label{
-+                &::before{
+                &::before{
                     font-family: $font-themify;
                     content: "\e64c";
                     text-align: center;

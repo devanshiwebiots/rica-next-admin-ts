@@ -420,3 +420,9 @@
         }
     }
 }
+.theme-form{
+    .dropzone-container{
+        background: unset;
+        background-color: rgba($primary-color, 0.05);
+    }
+}
