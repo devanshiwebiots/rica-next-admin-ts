@@ -52,7 +52,6 @@
           margin: 0 auto;
         }
         > div {
-          //height: 545px;
           z-index: 7;
           background-color: rgba(255, 255, 255, 0.75);
           background-blend-mode: overlay;
@@ -1797,8 +1796,6 @@
   .chat-menu-icons {
     display: block;
     clear: both;
-    // width: 100%;
-    // text-align: right;
   }
 
   .chat-menu {
@@ -4861,9 +4858,7 @@
   .knowledgebase-bg {
     height: 250px;
   }
-  // .profile-nav {
-  //   display: none !important;
-  // }
+
   .login-card {
     .login-main {
       .theme-form {

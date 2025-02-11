@@ -909,7 +909,6 @@
                     border: 1px solid #ced4da;
                     border-radius: 0.25rem;
                     -webkit-appearance: none;
-                    // background: url(../images/icon/down-#222222.png) no-repeat 95%;
                 }
             }
             .rooms-section {
@@ -1266,7 +1265,7 @@
         }
     }
 }
-///////////resaturant page
+
 // restaurant pages
 .order-menu {
     padding: 20px;
@@ -1516,7 +1515,7 @@
     height: 0;
 }
 
-////cab-single detail///
+//cab-single detail
 .cab-single-detail {
     background-color: white;
     margin-top: calc(10px + (25 - 10) * ((100vw - 320px) / (1920 - 320)));
@@ -1610,16 +1609,3 @@
 #tour-category {
     width: 100%;
 }
-// .single-section {
-//     .description-section {
-//         .description-details {
-//             .menu-part {
-//                 .rooms-box {
-//                     td:nth-child(2) {
-//                         width: 48% !important;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }

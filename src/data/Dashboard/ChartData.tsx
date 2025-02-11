@@ -238,7 +238,6 @@ export const visitorOptions: ApexOptions = {
      bar: {
        horizontal: false,
        columnWidth: "55%",
-      //  endingShape: "rounded",
      },
    },
    dataLabels: {
@@ -422,7 +421,6 @@ export const visitorOptions: ApexOptions = {
      stacked: true,
      events: {
        selection: function (chart, e) {
-         console.log(new Date(e.xaxis.min));
        },
      },
    },
@@ -444,7 +442,6 @@ export const visitorOptions: ApexOptions = {
     fillOpacity: 1,
     discrete: [],
     shape: "circle",
-    radius: 2,
     offsetX: 0,
     offsetY: 0,
     onClick: undefined,
@@ -474,7 +471,6 @@ export const visitorOptions: ApexOptions = {
       opacityTo: 0.2,
       shade: "light",
       type: "vertical",
-       // optional, if not defined - uses the shades of same color in series
      },
    },
    legend: {

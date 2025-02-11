@@ -2,11 +2,11 @@ import { useState } from "react";
 import ReactDatePicker from "react-datepicker";
 
 const DatePicker = () => {
-  const [startDate, setStartDate] = useState(new Date());
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
   return (
     <ReactDatePicker
       selected={startDate}
-      onChange={(date: any) => setStartDate(date)}
+      onChange={(date: Date | null) => setStartDate(date)}
       className="form-control datetimepicker-input digits"
     />
   );

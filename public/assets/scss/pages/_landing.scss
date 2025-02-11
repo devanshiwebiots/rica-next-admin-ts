@@ -118,7 +118,6 @@
       -webkit-text-fill-color: transparent;
       background: -o-linear-gradient(transparent, transparent);
       -webkit-background-clip: text;
-      // background-image: -webkit-linear-gradient(rgba(158, 107, 248, 0.5), rgba(119, 101, 250, 0.5)), url(../../../assets/images/landing/title.gif);
       background-position: left;
       line-height: 1;
       font-size: calc(25px + (57 - 25) * ((100vw - 300px) / (1920 - 300)));
@@ -376,7 +375,6 @@ $landing-color: var(--theme-deafult);
 .bg-sky-blue {
   .sticky-header {
     header {
-      //background: $white;
       .navbar-toggler {
         span {
           background-color: var(--theme-deafult);
@@ -511,10 +509,6 @@ $landing-color: var(--theme-deafult);
   margin-left: 0;
 }
 
-.email_bg {
-  // background-image: url(../../assets/images/landing/email-bg.jpg) !important;
-}
-
 .app_bg {
   background-color: #f7f7fe;
 }
@@ -543,10 +537,6 @@ $landing-color: var(--theme-deafult);
       }
     }
   }
-}
-
-.layout {
-  // background-image: url(../../assets/images/landing/email-bg.jpg);
 }
 
 .layout {
@@ -638,7 +628,6 @@ $landing-color: var(--theme-deafult);
       content: "";
       position: absolute;
       left: 0;
-      // background-image: url(../images/landing/left-left.png);
       height: 165px;
       width: 250px;
       top: 0;
@@ -648,7 +637,6 @@ $landing-color: var(--theme-deafult);
       content: "";
       position: absolute;
       right: 0;
-      // background-image: url(../images/landing/leaf-right.png);
       height: 208px;
       width: 250px;
       top: 0;

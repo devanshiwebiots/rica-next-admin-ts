@@ -99,15 +99,10 @@
       padding: $header-wrapper-padding;
       position: relative;
       .search-full {
-        // background-color: $white;
         position: relative;
-        // right: 0;
         z-index: 1;
         height: auto;
-        // width: 0;
         flex: 1 0 23%;
-        // transform: scale(0);
-
         transition: all 0.3s ease;
         &.open {
           display: block;
@@ -852,7 +847,6 @@
                         transition: all 0.3s ease;
 
                         &.active {
-                          //background-image: linear-gradient(90deg, var(--theme-deafult) 0%, #a26cf8 100%);
                           background-color: lighten($primary-color, 22%);
                           transition: all 0.3s ease;
 
@@ -881,7 +875,6 @@
 
                       .sidebar-submenu {
                         position: fixed;
-                        // left: 0;
                         z-index: 4;
                         box-shadow: 0 0 1px 0 $dark-gray;
                         padding: 15px 0px 15px 0px;
@@ -1395,9 +1388,6 @@
                         &.active {
                           ul{
                             &.sidebar-submenu{
-                              // height: auto;
-                              // opacity: 1;
-                              // visibility: visible;
                               display: block;
                             }
                           }
@@ -1405,15 +1395,8 @@
                         ul{
                           &.sidebar-submenu{
                             display: none;
-                            // height: auto;
-                            // opacity: 0;
-                            // visibility: hidden;
                           }
                         }
-                        // height: 0;
-                        // opacity: 0;
-                        // visibility: hidden;
-
                         &.sidebar-main-title {
                           padding-top: 15px;
                           padding-bottom: 13px;
@@ -1777,7 +1760,6 @@
         min-height: calc(100vh - 80px);
         margin-top: 140px;
         margin-left: 280px;
-        // animation: pagebody 1000ms ease-in-out;
       }
     }
 
@@ -2586,16 +2568,7 @@
 
       .page-body {
         margin-left: 310px;
-
-        // .container-fluid {
-        //   max-width: 1540px;
-        // }
       }
-      // .footer {
-      //   margin-left: 21px;
-      //   margin-right: 21px;
-      //   border-radius: 10px;
-      // }
     }
   }
 
@@ -2624,7 +2597,6 @@
     }
 
     .page-body-wrapper {
-      // background-image: url(../images/other-images/boxbg.jpg);
       background-blend-mode: overlay;
       background-color: rgba($white, 0.5);
 
@@ -2697,38 +2669,6 @@
     opacity: 1;
   }
 }
-
-// Responsive menu css start //
-// @media screen and (max-width: 1780px) {
-//   .page-wrapper {
-//     &.horizontal-wrapper {
-//       .page-body-wrapper {
-//         .sidebar-wrapper {
-//           .sidebar-main {
-//             .sidebar-links {
-//               .simplebar-wrapper {
-//                 .simplebar-mask {
-//                   .simplebar-content-wrapper {
-//                     .simplebar-content {
-//                        >li {
-//                          .mega-menu-container {
-
-//                            right: -18%;
-//                            width: 91%;
-//                          }
-//                        }
-//                     }
-//                   }
-//                 }
-//               }
-
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 
 @media screen and (max-width: 1480px) {
   .page-wrapper {
